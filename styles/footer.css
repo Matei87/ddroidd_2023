@@ -1,0 +1,13 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dove-gray);
+  height: 115px;
+  color: var(--white);
+  font-size: 36px;
+}
+
+footer img {
+  margin-left: 1rem;
+}

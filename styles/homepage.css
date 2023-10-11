@@ -1,0 +1,16 @@
+.homepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10rem;
+  width: 1374px;
+  height: 851px;
+  background-color: var(--athens-gray);
+  margin: 0 auto;
+}
+
+.homepage > div {
+  display: flex;
+  align-items: center;
+}

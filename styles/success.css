@@ -1,0 +1,31 @@
+.success {
+  width: 1374px;
+  height: 851px;
+  background-color: var(--athens-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.success h1 {
+  font-family: var(--font-family-bold);
+  font-weight: var(--font-weight-bold);
+  font-size: 48px;
+  color: var(--prussian-blue);
+}
+
+.success p,
+.success li {
+  font-family: var(--font-family-bold);
+  font-weight: var(--font-weight-bold);
+  font-size: 20px;
+  color: var(--black);
+  line-height: 1;
+}
+
+.success li {
+  margin: 0.5rem 0;
+}

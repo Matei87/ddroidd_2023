@@ -1,0 +1,49 @@
+.form {
+  width: 1374px;
+  height: 851px;
+  background-color: var(--athens-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 5rem;
+}
+
+.form h1 {
+  font-family: var(--font-family-bold);
+  font-weight: var(--font-weight-bold);
+  font-size: 28px;
+  text-align: center;
+}
+
+.form p {
+  font-family: var(--font-family-bold);
+  font-weight: var(--font-weight-bold);
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+form {
+  flex-direction: column;
+  align-self: center;
+  width: 816px;
+}
+
+.form .ant-form-item-required::before {
+  content: '' !important;
+}
+
+.form .ant-form-item-required::after {
+  visibility: initial !important;
+  content: '*' !important;
+  color: #ff4d4f;
+  font-size: 14px;
+  margin-inline-end: 4px;
+}
+
+form label {
+  font-weight: var(--font-weight-semiBold);
+  font-size: 16px;
+  color: var(--prussian-blue);
+}
